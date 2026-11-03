@@ -1,0 +1,44 @@
+.signpage_main{
+    background-color: rgba(212, 212, 212, 0.9);
+    width: min(280px, calc(100vw - 32px));
+    min-height: 200px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+
+    h1{
+        color:rgb(3, 3, 53);
+        margin-top: -5px;
+    }
+    .signpage_butn{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        .sign_in{
+            width:160px;
+            height: 30px;
+            background-color: rgb(205, 94, 94);
+        }
+        .sign_out{
+            width:160px;
+            height: 30px;
+            background-color: rgb(205, 94, 94);
+        }                
+    }
+    .signOut{
+            width:160px;
+            height: 30px;
+            background-color: rgb(205, 94, 94);
+        }
+    .closing{
+        text-align: right;
+        padding: 10px 5px 0px 0px;
+        cursor: pointer;
+    }
+}

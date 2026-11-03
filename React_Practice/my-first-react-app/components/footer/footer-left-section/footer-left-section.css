@@ -1,0 +1,14 @@
+
+
+.footer-left-main{
+    width: 30%;
+    /* height: 150px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.footerLogo{
+    width:130px;
+    height:90px;    
+}

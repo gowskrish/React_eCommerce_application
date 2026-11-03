@@ -1,0 +1,43 @@
+.ourapproach_main{
+    text-align: center;
+    background-color: rgb(248, 248, 239);
+    padding: 28px clamp(16px, 5vw, 48px);
+
+    h1{
+       color:rgb(2, 2, 45);
+       font-size: clamp(22px, 4vw, 32px);
+    }
+    p{
+       font-size: 12px;
+       color:gray;
+       text-align: center;
+       max-width: 760px;
+       margin: 16px auto 28px;
+       line-height: 20px;
+    }
+    .ourApprochImgsec{
+       width: 100%;
+       margin: 0 auto;
+       gap: clamp(12px, 2vw, 20px);
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    }
+    .collectionCards:nth-child(even){
+       margin-top: 24px;
+       border: none;
+       border-top: 1px solid black; 
+      
+    }
+    .collectionCards{
+     min-width: 0;
+     border-top: 1px solid black;
+
+     img {
+       display: block;
+       width: 100%;
+       aspect-ratio: 0.84;
+       object-fit: cover;
+     }
+    }
+     
+}

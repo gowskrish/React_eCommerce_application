@@ -1,0 +1,166 @@
+body {
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    background-color: #ccc;
+    font-family: ;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    width: 80vw;
+    height: 900px;
+
+}
+
+.mainbackimg {
+    background-image: url(../img/simple-house-01.jpg);
+    width: 1200px;
+    height:830px;
+    position: absolute;
+}
+
+.logoimg {
+    width: 63px;
+    height: 63px;
+    padding-left: 100px;
+    position: relative;
+    /* top:710px;
+    left:30px; */
+    
+
+}
+.logo_navbar{
+    position: relative;
+    top:715px;
+    /* background-color: red; */
+    display: flex;
+    justify-content:start;
+    
+}
+.logo_headingh1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant-caps: normal;
+    font-size: 37px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top:-30px;
+    left:10px;   
+}
+.logo_headingh4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant-caps: normal;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top:23px;
+    left:-218px;
+
+}
+.navbar{
+    color:white; 
+    display: flex;
+    justify-content: end;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    align-items:center;
+    padding-top: 20px;
+    margin-left:300px;   
+    letter-spacing: 1px;
+      
+}
+.nav-listH{
+     padding-right: 30px;
+     color:white;   
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness:1px;
+}
+
+.nav-list{
+    padding-right: 30px;
+    color:white; 
+    text-decoration: none;  
+    
+     
+}
+.nav-list:hover{
+    
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness:1px;
+  
+}
+
+/* .logo_header {
+    color: blue;
+    font-weight: 800;
+}
+
+.document {
+    background-color: orange;
+    color: red;
+
+} */
+
+
+/* @media (min-width: 320px) and (max-width:766px) { */
+    .logo_header {
+        color: red;
+        font-weight: 100;
+    }
+
+    .document {
+        background-color: orange;
+        color: green;
+
+    }
+/* } */
+
+/* @media (min-width: 767px) and (max-width:991px) { */
+    .logo_header {
+        color: green;
+        font-weight: 100;
+    }
+
+    .document {
+        background-color: orange;
+        color: rgb(51, 16, 92);
+
+    }
+/* } */
+
+/* @media (min-width: 992px) and (max-width:1199px) { */
+    .logo_header {
+        color: yellow;
+        font-weight: 100;
+        
+    }
+    .document {
+            background-color: orange;
+            color: rgb(221, 24, 139);
+
+        }
+/* } */
+
+/* @media (min-width: 1200px) { */
+    .logo_header {
+        color: purple;
+        font-weight: 100;
+    }
+
+    .document {
+        background-color: orange;
+        color: red;
+
+    }
+/* } */

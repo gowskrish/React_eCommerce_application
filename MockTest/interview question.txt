@@ -1,0 +1,12 @@
+FUNCTION:
+
+A function is a block of code that performs a specific task.
+We write the code once and can call the function whenever we need it.
+
+(A function is a reusable block of code designed to perform a specific task.)
+
+Normal Funcion
+Function with Parameters
+Function with Return
+Funcion With Expression
+

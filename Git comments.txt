@@ -1,0 +1,11 @@
+Git comments
+
+| Command                   | What it does                       |
+| ------------------------- | ---------------------------------- |
+| `git init`                | Creates a new Git repository       |
+| `git clone <url>`         | Downloads a repository from GitHub |
+| `git status`              | Shows changed/untracked files      |
+| `git add .`               | Adds all changes to staging        |
+| `git add <file>`          | Adds a specific file               |
+| `git commit -m "message"` | Saves changes with a message       |
+| `git log`                 | Shows commit history               |

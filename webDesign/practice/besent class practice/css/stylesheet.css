@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: antiquewhite;    
+}
+.wrapper{
+    margin:0 auto;
+    /* width:200px;
+    height: 100px;
+    background-color: aqua; */
+    padding:0 16px;
+}
+
+h1{
+    /* background-color: red; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:transparent;
+    background-image: radial-gradient(red, green, blue);
+    background-clip: text;
+    /* text-shadow: 0px, 0px, 0px, red; */
+    
+
+}

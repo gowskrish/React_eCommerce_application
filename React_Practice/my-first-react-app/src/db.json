@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 79.99,
+      "description": "Comfortable over-ear headphones with clear sound and a long-lasting battery.",
+      "image": "https://placehold.co/600x400?text=Wireless+Headphones",
+      "stock": 24,
+      "rating": 4.6
+    },
+    {
+      "id": 2,
+      "name": "Classic Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 19.99,
+      "description": "A soft, everyday cotton T-shirt with a comfortable regular fit.",
+      "image": "https://placehold.co/600x400?text=Cotton+T-Shirt",
+      "stock": 50,
+      "rating": 4.3
+    },
+    {
+      "id": 3,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "price": 24.5,
+      "description": "Reusable insulated bottle that keeps drinks cold or hot for hours.",
+      "image": "https://placehold.co/600x400?text=Water+Bottle",
+      "stock": 38,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Everyday Canvas Backpack",
+      "category": "Accessories",
+      "price": 44.99,
+      "description": "Durable canvas backpack with a padded laptop sleeve and roomy compartments.",
+      "image": "https://placehold.co/600x400?text=Canvas+Backpack",
+      "stock": 17,
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "name": "Ceramic Coffee Mug Set",
+      "category": "Home & Kitchen",
+      "price": 29.99,
+      "description": "Set of four glazed ceramic mugs, each holding up to 12 ounces.",
+      "image": "https://placehold.co/600x400?text=Coffee+Mug+Set",
+      "stock": 31,
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "name": "Fitness Resistance Bands",
+      "category": "Sports & Outdoors",
+      "price": 15.99,
+      "description": "Five resistance levels for stretching, strength training, and workouts at home.",
+      "image": "https://placehold.co/600x400?text=Resistance+Bands",
+      "stock": 42,
+      "rating": 4.2
+    },
+    {
+      "id": 7,
+      "name": "Minimalist Wrist Watch",
+      "category": "Accessories",
+      "price": 89,
+      "description": "A lightweight analog watch with a clean dial and adjustable strap.",
+      "image": "https://placehold.co/600x400?text=Wrist+Watch",
+      "stock": 12,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "Hardcover Weekly Planner",
+      "category": "Stationery",
+      "price": 18.75,
+      "description": "Undated weekly planner with a durable cover and space for notes and goals.",
+      "image": "https://placehold.co/600x400?text=Weekly+Planner",
+      "stock": 27,
+      "rating": 4.1
+    },
+    {
+      "id": 9,
+      "name": "Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 54.99,
+      "description": "Compact wireless speaker with rich sound and a splash-resistant design.",
+      "image": "https://placehold.co/600x400?text=Bluetooth+Speaker",
+      "stock": 19,
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "name": "Classic Running Shoes",
+      "category": "Sports & Outdoors",
+      "price": 64.95,
+      "description": "Lightweight running shoes with cushioned support for everyday training.",
+      "image": "https://placehold.co/600x400?text=Running+Shoes",
+      "stock": 15,
+      "rating": 4.4
+    }
+  ],
+  "userData": [
+    {
+      "id": 1,
+      "userName": "Gowthami",
+      "age": 37,
+      "email": "gowthami@gmail.com"
+    },
+    {
+      "id": 2,
+      "userName": "Rahul",
+      "age": 25,
+      "email": "rahul@gmail.com"
+    },
+    {
+      "id": 3,
+      "userName": "Priya",
+      "age": 28,
+      "email": "priya@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+/* =====================================
+   FOOTER
+===================================== */
+
+.footer {
+  position: relative;
+
+  width: 100%;
+  height: 512px;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #f4f4f2;
+
+  color: #222;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  overflow: hidden;
+}
+
+
+/* =====================================
+   SUBTLE PAPER / GRAIN EFFECT
+===================================== */
+
+.footer::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.18;
+
+  background-image:
+    radial-gradient(
+      rgba(0, 0, 0, 0.15) 0.5px,
+      transparent 0.7px
+    );
+
+  background-size: 4px 4px;
+}
+
+
+/* =====================================
+   LEFT INFO
+===================================== */
+
+.footer-info {
+  position: absolute;
+
+  left: 134px;
+  top: 101px;
+
+  width: 100px;
+
+  z-index: 1;
+}
+
+
+.footer-section {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+
+/* Section heading */
+
+.footer-title {
+  margin-bottom: 25px;
+
+  color: #999;
+
+  font-size: 9px;
+  font-weight: 400;
+
+  letter-spacing: 0.5px;
+}
+
+
+/* Links */
+
+.footer-section a {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: #777;
+
+  text-decoration: none;
+
+  font-size: 9px;
+  font-weight: 400;
+
+  line-height: 1.35;
+
+  letter-spacing: 0.2px;
+}
+
+.footer-section a:hover {
+  color: #222;
+}
+
+
+/* =====================================
+   LANGUAGES
+===================================== */
+
+.footer-languages {
+  margin-top: 51px;
+}
+
+
+.footer-languages .footer-title {
+  margin-bottom: 25px;
+}
+
+
+.language-row {
+  display: flex;
+
+  align-items: center;
+
+  height: 18px;
+
+  color: #777;
+
+  font-size: 9px;
+}
+
+
+.language-row span:first-child {
+  min-width: 30px;
+}
+
+
+.language-row span:last-child {
+  color: #aaa;
+
+  font-size: 10px;
+}
+
+
+/* =====================================
+   CENTER
+===================================== */
+
+.footer-center {
+  position: absolute;
+
+  left: 434px;
+  top: 101px;
+
+  width: 170px;
+
+  z-index: 1;
+}
+
+
+/* Technologies heading */
+
+.technology-title {
+  margin-bottom: 28px;
+
+  color: #999;
+
+  font-size: 9px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.3px;
+}
+
+
+/* =====================================
+   LOGO
+===================================== */
+
+.footer-logo {
+  width: 120px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+
+/* Top faded QR */
+
+.logo-top {
+  height: 49px;
+
+  display: flex;
+
+  align-items: center;
+}
+
+
+/* Diamond */
+
+.logo-symbol {
+  position: relative;
+
+  display: block;
+
+  width: 27px;
+  height: 27px;
+
+  margin-right: 8px;
+
+  background: #222;
+
+  transform: rotate(45deg);
+
+  overflow: hidden;
+}
+
+
+.logo-symbol::after {
+  content: "";
+
+  position: absolute;
+
+  width: 50%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  background: #f4f4f2;
+}
+
+
+/* Faded QR */
+
+.logo-fade {
+  color: #e8e8e8;
+
+  font-size: 47px;
+
+  line-height: 1;
+
+  font-weight: 700;
+
+  letter-spacing: -5px;
+}
+
+
+/* XIV */
+
+.logo-xiv {
+  margin-top: 1px;
+
+  color: #222;
+
+  font-size: 68px;
+
+  line-height: 0.88;
+
+  font-weight: 900;
+
+  letter-spacing: -5px;
+}
+
+
+/* QR */
+
+.logo-qr {
+  margin-top: 5px;
+
+  color: #222;
+
+  font-size: 68px;
+
+  line-height: 0.88;
+
+  font-weight: 900;
+
+  letter-spacing: -5px;
+}
+
+
+/* =====================================
+   TECHNOLOGY DESCRIPTION
+===================================== */
+
+.technology-description {
+  position: absolute;
+
+  left: 567px;
+  top: 198px;
+
+  display: flex;
+
+  align-items: center;
+
+  z-index: 1;
+}
+
+
+.technology-description span:first-child {
+  color: #aaa;
+
+  font-size: 9px;
+
+  white-space: nowrap;
+}
+
+
+.technology-slash {
+  margin-left: 139px;
+
+  color: #aaa;
+
+  font-size: 31px;
+
+  font-weight: 200;
+
+  transform: rotate(13deg);
+
+  display: inline-block;
+}
+
+
+/* =====================================
+   BOTTOM
+===================================== */
+
+.footer-bottom {
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+
+  z-index: 1;
+}
+
+
+.copyright {
+  position: absolute;
+
+  left: 434px;
+  bottom: 1px;
+
+  color: #aaa;
+
+  font-size: 8px;
+
+  white-space: nowrap;
+}
+
+
+.privacy {
+  position: absolute;
+
+  right: 292px;
+  bottom: 1px;
+
+  color: #aaa;
+
+  font-size: 8px;
+}
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 900px) {
+
+  .footer-info {
+    left: 8%;
+  }
+
+  .footer-center {
+    left: 40%;
+  }
+
+  .technology-description {
+    left: 54%;
+  }
+
+  .copyright {
+    left: 40%;
+  }
+
+  .privacy {
+    right: 15%;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  .footer {
+    height: 600px;
+  }
+
+  .footer-info {
+    left: 30px;
+    top: 60px;
+  }
+
+  .footer-center {
+    left: 50%;
+    top: 60px;
+
+    transform: translateX(-50%);
+  }
+
+  .technology-description {
+    left: 50%;
+    top: 370px;
+
+    transform: translateX(-50%);
+  }
+
+  .technology-slash {
+    margin-left: 40px;
+  }
+
+  .copyright {
+    left: 30px;
+    bottom: 20px;
+  }
+
+  .privacy {
+    right: 30px;
+    bottom: 20px;
+  }
+}
+
+/* Use document flow at every size to keep footer content from overlapping. */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  min-height: 390px;
+  padding: 64px clamp(24px, 9vw, 134px) 24px;
+  overflow: hidden;
+}
+
+.footer-info,
+.footer-center,
+.technology-description,
+.footer-bottom {
+  position: relative;
+  inset: auto;
+  transform: none;
+  width: auto;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-center {
+  justify-self: center;
+}
+
+.technology-description {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+}
+
+.technology-slash {
+  margin-left: clamp(16px, 5vw, 64px);
+}
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: end;
+  gap: 16px;
+}
+
+.copyright,
+.privacy {
+  position: static;
+  white-space: normal;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    min-height: 420px;
+    padding: 56px clamp(24px, 7vw, 64px) 24px;
+  }
+
+  .footer-center {
+    justify-self: end;
+  }
+
+  .technology-description {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer {
+    min-height: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 16px;
+    padding: 40px 24px 20px;
+  }
+
+  .footer-info {
+    gap: 28px;
+  }
+
+  .footer-center {
+    justify-self: end;
+  }
+
+  .technology-description {
+    grid-column: 1 / -1;
+    justify-self: center;
+    flex-wrap: wrap;
+  }
+
+  .technology-slash {
+    margin-left: 20px;
+  }
+
+  .footer-bottom {
+    align-items: center;
+  }
+}

@@ -1,0 +1,343 @@
+body{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+.menubar_main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.menubar_main:hover{
+    background-color: beige;
+    opacity: 0.5;
+}
+.logo{
+    width: 220px;
+    height:115px;
+    background-repeat: no-repeat;
+    /* background-position:left; */
+    cursor: pointer;
+}
+.navlist{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    align-items:flex-end;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: navy;
+}
+.navlist li a:hover{
+    cursor: pointer;
+    color:black;
+    background-color: bisque;
+    font-weight: bold;
+}
+.signup-butn{
+    background-color: beige;
+    border: none;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.traval_main{
+    display: flex;
+    /* background-color: antiquewhite; */
+    height:auto;
+}
+.travel_text_left_main{
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+}
+.best_heading{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#DF6951;
+}
+.Traval_big_heading{
+    font-size: 46px;
+    font-family: Volkhov;
+    text-transform: capitalize;
+    align-items:center;
+    text-align:left;
+    width:68%;
+    color:rgb(22, 22, 43);
+}
+.traval_para{
+    width:68%;
+    margin-top: -25px;
+    line-height: 15px;
+    font-size: 10px;
+    color: black;
+    text-align:left;
+
+}
+.find_video_but_main{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.findout{
+    font-size: 8px;
+    background-color:orange;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.video_butn_main{
+    display: flex;
+}
+.video_butn{
+    border: none;
+    /* background-color: #DF6951; */
+    background: none;
+}
+.play{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: gray;   
+
+}
+.travel_img_right_main{
+   width: 50%;
+    position: relative;
+
+}
+.img_traveller{
+    width:400px;
+    height:400px;
+}
+.plane{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    left: 80px;
+    top:35px;
+}
+.slide-carousel_main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#image_container{
+    display: flex;
+    width:70%;
+    gap:20px;
+}
+#image_container img{
+    width:260px;
+    height:auto;
+    object-fit: cover;
+    margin-top:40px;
+}
+.slide-carousel_main button{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.suscribe_main{
+    margin: 0 auto;
+    width: 60%;
+    height: 250px;
+    background-color:rgb(238, 239, 245);
+    align-items: center;
+    text-align: center;
+    border-radius: 160px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.subscribe{
+    font-size: 14px;
+    color: rgb(88, 88, 90);
+    width: 70%;
+    padding-top:50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.sub_inp_but_main{
+    display: flex;
+    align-items:left;
+    gap:20px;
+
+}
+.inputtext{
+    border: none;
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.subbutn{
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    background-color: #DF6951;
+    font-size: 9px;
+    margin-top: 25px;
+    border: none;
+    padding: 5px 30px 10px 10px;
+    cursor: pointer;
+}
+.footer_main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(150, 150, 184);
+    border-top: 2px solid black;
+}
+.foot_navlist{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    align-items:flex-end;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.foot_navlist li a{
+    text-decoration: none;
+    color: navy;
+}
+.foot_navlist li a:hover{
+    cursor: pointer;
+    color:black;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) { 
+body{
+    display: flex;
+    flex-direction: column;
+}
+.menubar_main{
+    flex-direction: column;
+    /* display: flex;   */
+    /* justify-content: flex-end;      */
+}
+.logo{
+    background-position:center;
+    /* align-items:end; */
+    /* justify-content: flex-end; */
+    /* width: 90%; */
+     width: 200px;
+    height:100px;
+    margin-left:190px;
+   
+}
+.navlist{
+    flex-direction:column;
+    width:80%;
+    align-items:end;
+}
+.navlist li a{
+    text-decoration: none;
+    color: navy;
+}
+.navlist li a:hover{
+    cursor: pointer;
+    color:black;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.signup-butn{
+    background-color: beige;
+    border: none;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items:end;
+}
+.traval_main{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+}
+.travel_text_left_main{
+    width:100%;
+}
+.travel_img_right_main{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.img_traveller{
+    width:250px;
+    height:250px;
+}
+.slide-carousel_main{
+    flex-direction: column;
+}
+#image_container img{
+    width:260px;
+    height:auto;
+    object-fit: cover;
+}
+
+#image_container{
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+.carousel_main button{
+    justify-content:flex-end;
+    align-items: center;
+}
+.suscribe_main{
+    width: 100%;
+    margin-top: 5px;
+}
+.sub_inp_but_main{
+    flex-direction: column;
+}
+.subbutn{
+    margin-top:0px;
+    border: none;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+}
+.footer_main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.foot_navlist{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-30px;
+
+    gap:20px;
+}
+
+
+
+
+
+
+
+    
+} 

@@ -1,0 +1,104 @@
+
+.newthisweek-main {
+    text-align: left;
+    font-size: clamp(16px, 2.2vw, 18px);
+    padding: 0 clamp(16px, 5vw, 48px);
+    box-sizing: border-box;
+}
+
+/* Left and right spacing */
+.carousel-viewport {
+    width: 100%;
+    padding: 0 clamp(16px, 5vw, 48px);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Moving carousel track */
+.newCollectionCard_main {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: flex-start;
+    will-change: transform;
+}
+
+/* Four cards visible at a time */
+.newCollectionCard_main .collectionCards {
+    flex: 0 0 calc((100% - 60px) / 4);
+    min-width: 0;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* Product image */
+.collectionCards img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 0.9;
+    object-fit: cover;
+}
+
+/* Title and price */
+.titleprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.title,
+.price {
+    margin: 10px 0;
+}
+
+.price {
+    text-align: right;
+}
+
+/* Navigation buttons */
+.prevNext_but {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.prevNext_but button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: white;
+    color: #222;
+    border: 1px solid #222;
+}
+
+.prevNext_but button:hover {
+    background: #222;
+    color: white;
+}
+
+.prevNext_but button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .newCollectionCard_main .collectionCards {
+        flex-basis: calc((100% - 20px) / 2);
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .newCollectionCard_main .collectionCards {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .newCollectionCard_main {
+        gap: 12px;
+    }
+}

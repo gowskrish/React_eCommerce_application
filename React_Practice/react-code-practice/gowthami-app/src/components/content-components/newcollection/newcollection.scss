@@ -1,0 +1,105 @@
+@use "../../../styles/variables" as v;
+
+
+.newcollection-main {
+    display: flex;
+    align-items: stretch;
+    gap: clamp(20px, 4vw, 56px);
+    padding: 32px clamp(16px, 5vw, 75px);
+
+    .newcollection_firstbox {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        min-width: 0;
+
+    .newCollection_heading {
+        color: black;
+        font-size: clamp(32px, 5vw, 64px);
+        text-align: left;
+        line-height: 1.05;
+        
+    }
+    .buttonCoroal_main{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: auto;
+        padding-top: 24px;
+    }
+    .summer{
+            color:gray;
+            text-align: left;
+            font-weight: normal;
+            font-size: 10px;
+            margin-top: -20px;
+        }
+    .gotoButn{
+            background-color:v.$bytn_background-color;
+            color:black;
+            min-height:40px;
+            width: min(180px, 100%);
+            text-align: left;
+            font-size: 10px;
+            padding: 0 12px;
+            .rightArrow{
+                float: right;
+            }
+        }  
+    
+    }   
+
+    .Cards{
+        min-width: 0;
+        border: 2px solid white;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-content: center;
+        gap: clamp(10px, 2vw, 20px);
+        width: 65%;
+
+        img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 0.9;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .newcollection-main {
+        flex-direction: column;
+        gap: 20px;
+
+        .newcollection_firstbox {
+            width: 100%;
+        }
+
+        .newCollection_heading {
+            font-size: clamp(34px, 9vw, 52px);
+        }
+
+        .summer {
+            margin-top: 0;
+        }
+
+        .buttonCoroal_main {
+            justify-content: flex-start;
+            padding-top: 12px;
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .newcollection-main {
+        .card {
+            grid-template-columns: 1fr;
+        }
+    }
+}

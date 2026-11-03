@@ -1,0 +1,88 @@
+				REACT INTERVIEW QUESTION
+
+1. What is React?
+React is a JavaScript library for building user interfaces. It helps create reusable components and update the page when data changes.
+
+
+2. What is a component?
+A component is a reusable piece of UI. For example, a page may contain Header, Sidebar, and UserList components.
+
+
+3. What is JSX?
+JSX is syntax that lets you write HTML-like markup inside JavaScript. React uses it to describe what should appear on the page.
+
+
+4.Props
+Props is short for properties. In React, props are values a parent component passes to a child component so it can display different content or behave differently.
+
+
+5. What is the difference between a function component and a class component?
+
+A function component is a JavaScript function that returns UI. A class component uses a JavaScript class. Function components with hooks are commonly used in modern React.
+
+
+6. What is the difference between props and state?
+
+Props are values passed into a component by its parent. State is data managed inside a component and can change over time.
+
+
+7. What is the Virtual DOM?
+
+The Virtual DOM is a lightweight copy of the page that React keeps in memory. When something changes, React compares the new copy with the old one and updates only the parts of the real page that need changing.
+
+
+8.Why does React need a key in a list?
+
+A key helps React identify each item when the list changes. A stable ID is usually better than an array index.
+
+
+9. How do you handle a button click in React?
+
+Use an event prop such as onClick and provide a function.
+
+
+10. What is conditional rendering?
+
+Conditional rendering means showing different content depending on a condition.
+
+{isLoggedIn ? <p>Welcome!</p> : <p>Please log in.</p>}
+
+
+11. What is a React Fragment?
+
+A Fragment groups multiple elements without adding an extra HTML element.
+<>
+  <h1>Title</h1>
+  <p>Description</p>
+</>
+
+12. What is Hook?
+
+A Hook is a React function that lets a component use features like state and effects.
+For example, 
+
+useState:	use state is the store data in a new variable. lets a component remember a value:
+
+const [count, setCount] = useState(0);
+
+useEffect : useEffect is the side effect for useState, its using a fetching API, Timerset and event listners
+
+DEPANDANCY
+No Depandancy	 : whenever state is changing it will render again and again.
+Empty Depandancy : It will render only one time
+Depandancy[with depandancy] : it will render whenever specific state for change.
+
+
+useRef :
+ 	Which helps to target Dom Element
+	it will not render again and again
+	useRef means returns object
+	syntax inputRef = useRef()
+
+13. What is prop drilling?
+
+Prop drilling is passing props through several components so a deeply nested component can use them. For small apps, passing props is often fine. React Context can help when many components need the same value.
+
+14. How do you pass data from a child component to its parent?
+
+The parent passes a callback function to the child. The child calls the function with the data.

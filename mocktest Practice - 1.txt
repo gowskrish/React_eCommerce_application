@@ -1,0 +1,13 @@
+<header>
+
+	logo 
+	menubar -> home, about, service, testimonial, contact
+</header>
+
+<body>
+	with fetch api items
+</body> 
+
+<footer>
+	menubar -> home, about, service, testimonial, contact
+</footer>

@@ -445,8 +445,7 @@
 .client_first_box{
     width:450px;
     height: 450px;
-    /* background-color: #FFFFFF; */
-    background-color:green;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -545,13 +544,14 @@
     align-items: stretch;
     gap: clamp(30px, 5vw, 80px);
     padding:50px;
+    background-color:#F8F8F8;
 }
 
 .contact_lef_main{
     flex:1 1 50%;
     min-width:0;
     height:auto;
-    display: flex; 
+    display: flex;
 }
 .left_content_main{
     width:100%;
@@ -619,8 +619,24 @@
     font-size: 20px;
     border: none;
 }
+/* ************************Footer Section*********************************** */
+    .footer_main{
+        width:100%;
+        height: 398px;
+        background-color: #F8F8F8;
+        margin-top:60px;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_main{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .footer_menu{
 
-
+    }
 
 
 
@@ -880,5 +896,532 @@
 @media (min-width:768px){
     .menu-toggle{
         display: none;
+    }
+}
+
+/* Responsive layout overrides */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_bacgrnd_image {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu_logo {
+    display: block;
+    max-width: 180px;
+    height: auto;
+}
+
+.nav_heading {
+    padding: 0 clamp(20px, 5vw, 80px);
+}
+
+.menubar a {
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu-toggle {
+    z-index: 2;
+    border: 0;
+    background: transparent;
+    color: #4a4a4a;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.tessa_main {
+    padding: 0 clamp(20px, 5vw, 80px);
+}
+
+.tessa_right {
+    min-width: 0;
+}
+
+.lorem {
+    max-width: 620px;
+}
+
+.three_box_main {
+    flex-wrap: wrap;
+    gap: clamp(20px, 4vw, 50px);
+    padding-left: clamp(20px, 5vw, 80px);
+    padding-right: clamp(20px, 5vw, 80px);
+}
+
+.first_box {
+    width: min(100%, 370px);
+}
+
+.creative_sec_main {
+    padding: 0 clamp(20px, 5vw, 80px);
+}
+
+.creative_sec_left {
+    width: min(70%, 1091px);
+}
+
+.portfolio_threebox_main {
+    align-items: center;
+    gap: clamp(20px, 3vw, 50px);
+    padding: 0 clamp(20px, 5vw, 80px);
+}
+
+.portfolio_firstbox_main,
+.portfolio_firstbox,
+.portfolio_secondbox,
+.portfolio_thirdbox {
+    width: min(100%, 440px);
+}
+
+.portfolio_firstbox_main {
+    margin-left: 0;
+}
+
+.portfolio_firstbox {
+    padding-left: clamp(25px, 4vw, 50px);
+}
+
+.rectangle_424_img,
+.rectangle_425_img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+.view_gal_main {
+    margin-right: clamp(20px, 6vw, 80px);
+}
+
+.view_gal_butn {
+    margin-left: 0;
+}
+
+.showcase_boxes_main_big {
+    min-height: 606px;
+    height: auto;
+    padding: clamp(30px, 6vw, 70px) clamp(20px, 5vw, 80px);
+}
+
+.client_first_box,
+.client_second_box {
+    width: min(38vw, 450px);
+    height: min(38vw, 450px);
+}
+
+.client_second_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.helping_numbersimg {
+    gap: 25px;
+}
+
+.number_head {
+    min-width: 0;
+}
+
+.small_title {
+    max-width: 100%;
+}
+
+.footer_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 45px;
+    list-style: none;
+    width: min(100%, 1000px);
+}
+
+.footer_menu img {
+    max-width: 150px;
+}
+
+@media (max-width: 1100px) {
+    .artistic_heading {
+        font-size: clamp(48px, 7vw, 75px);
+        text-align: center;
+    }
+
+    .showcase_text {
+        font-size: clamp(52px, 8vw, 97px);
+        max-width: 900px;
+    }
+
+    .tessa_main {
+        gap: 25px;
+    }
+
+    .creative_box {
+        right: -250px;
+        width: 400px;
+    }
+
+    .border_box {
+        width: calc(100% - 20px);
+    }
+
+    .portfolio_threebox_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio_firstbox_main {
+        flex: 1 1 100%;
+        max-width: 900px;
+    }
+
+    .portfolio_secondbox,
+    .portfolio_thirdbox {
+        flex: 1 1 320px;
+        max-width: 440px;
+    }
+
+    .helping_title {
+        width: min(80%, 700px);
+    }
+
+    .number_head {
+        font-size: clamp(70px, 9vw, 120px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .creative_sec_left {
+        width: 100%;
+    }
+
+    .creative_box {
+        position: relative;
+        right: auto;
+        top: auto;
+        width: min(100%, 600px);
+        min-height: 0;
+        margin: 25px auto 0;
+    }
+
+    .border_box {
+        width: calc(100% - 20px);
+        height: auto;
+        min-height: 400px;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header_bacgrnd_image {
+        min-height: 565px;
+        height: 100svh;
+        max-height: 760px;
+    }
+
+    .nav_heading {
+        height: 82px;
+        padding: 0 20px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .menu_logo {
+        max-width: 140px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav_heading_box {
+        position: absolute;
+        top: 82px;
+        left: 0;
+        right: 0;
+        display: none;
+        background: rgba(248, 248, 248, 0.98);
+        z-index: 1;
+    }
+
+    .nav_heading_box.active {
+        display: block;
+    }
+
+    .menubar,
+    .menubar.active {
+        display: flex;
+        position: static;
+        gap: 0;
+        background: transparent;
+        flex-direction: column;
+    }
+
+    .menubar li {
+        border-top: 1px solid #ddd;
+    }
+
+    .menubar a {
+        display: block;
+        padding: 14px 20px;
+    }
+
+    .head_title_img {
+        height: calc(100% - 82px);
+        padding: 0 20px;
+    }
+
+    .your_dream_heading {
+        font-size: clamp(30px, 9vw, 48px);
+        text-align: center;
+    }
+
+    .artistic_heading {
+        font-size: clamp(35px, 10vw, 54px);
+    }
+
+    .award_section {
+        padding: 0 20px 80px;
+    }
+
+    .vector_img {
+        max-width: 120px;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    .award_winning_head {
+        padding-left: 0;
+        font-size: clamp(18px, 5vw, 26px);
+        letter-spacing: clamp(3px, 1.5vw, 8px);
+    }
+
+    .showcase_text {
+        font-size: clamp(34px, 10vw, 52px);
+    }
+
+    .tessa_main {
+        padding: 0 20px;
+        gap: 35px;
+        margin-bottom: 70px;
+    }
+
+    .tessa_left_img,
+    .tessa_right {
+        width: 100%;
+        flex: 0 1 auto;
+    }
+
+    .hello_heading {
+        font-size: clamp(36px, 10vw, 48px);
+    }
+
+    .lorem {
+        font-size: 18px;
+    }
+
+    .tessa_m {
+        font-size: clamp(40px, 12vw, 55px);
+    }
+
+    .services {
+        font-size: clamp(18px, 5vw, 26px);
+        letter-spacing: clamp(4px, 1.5vw, 10px);
+    }
+
+    .what_i_offer {
+        font-size: clamp(38px, 10vw, 56px);
+        letter-spacing: 4px;
+    }
+
+    .three_box_main {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .creative_sec_main {
+        padding: 0 20px;
+    }
+
+    .creative_sec_left {
+        width: 100%;
+    }
+
+    .creative_box {
+        width: 100%;
+        min-height: 0;
+        padding: 8px;
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 20px;
+    }
+
+    .border_box {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        padding: 20px 10px;
+    }
+
+    .creative_pat_art_heading {
+        font-size: clamp(36px, 11vw, 52px);
+    }
+
+    .vector_box_para {
+        width: 100%;
+        padding: 10px;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .portfolio_threebox_main {
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .portfolio_firstbox_main,
+    .portfolio_firstbox,
+    .portfolio_secondbox,
+    .portfolio_thirdbox {
+        width: 100%;
+        max-width: 440px;
+    }
+
+    .portfolio_firstbox_main {
+        height: auto;
+        min-height: 0;
+    }
+
+    .portfolio_firstbox {
+        height: auto;
+        min-height: 285px;
+        margin-top: 0;
+        padding: 25px;
+    }
+
+    .zero_box_para {
+        padding-right: 0;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .portfolio_secondbox,
+    .portfolio_thirdbox {
+        height: auto;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .rectangle_424_img,
+    .rectangle_425_img {
+        height: auto;
+        aspect-ratio: 1 / 1.15;
+    }
+
+    .view_gal_main {
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .client_test {
+        font-size: clamp(36px, 11vw, 52px);
+    }
+
+    .showcase_boxes_main_big {
+        min-height: 0;
+        padding: 25px 20px 35px;
+        gap: 20px;
+    }
+
+    .left_arrow_icon,
+    .right_arrow_icon {
+        width: 42px;
+        height: 48px;
+        margin: 0;
+        flex: 0 0 auto;
+    }
+
+    .client_first_box,
+    .client_second_box {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        margin: 0;
+    }
+
+    .client_showcase_para {
+        font-size: clamp(21px, 6vw, 28px);
+    }
+
+    .helping_title {
+        width: 100%;
+        padding: 0 20px;
+        font-size: clamp(28px, 8vw, 40px);
+    }
+
+    .helping_numbersimg {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .number_head {
+        align-items: center;
+        width: 100%;
+        font-size: clamp(70px, 20vw, 110px);
+    }
+
+    .small_title {
+        justify-content: center;
+        text-align: center;
+        font-size: clamp(25px, 7vw, 35px);
+    }
+
+    .contactsec_main {
+        padding: 35px 20px;
+    }
+
+    .getintouch_head {
+        font-size: clamp(42px, 12vw, 58px);
+    }
+
+    .formcss {
+        margin-top: 55px;
+    }
+
+    .label_name {
+        font-size: 19px;
+        padding-bottom: 30px;
+    }
+
+    .footer_main {
+        height: auto;
+        min-height: 250px;
+        padding: 45px 20px;
+    }
+
+    .footer_menu {
+        gap: 20px 30px;
     }
 }

@@ -1,0 +1,62 @@
+@use "../../styles/mixins" as m;
+
+.Product_list_page_Main {
+    background-color: rgb(235, 234, 233);
+    width: 100%;
+    padding: 20px clamp(16px, 4vw, 38px);
+
+    h1 {
+        font-size: clamp(24px, 5vw, 32px);
+    }
+
+    .plp_lists {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 20px;
+
+        .plp_list_child {
+            min-width: 0;
+            // border: 3px solid rgb(221, 21, 144);
+            // border-radius: 5px;
+            .in-stock {
+                color: rgb(102, 150, 223);
+                font-weight: 600;
+            }
+
+            .out-of-stock {
+                color: rgb(250, 101, 55);
+                font-weight: 600;
+            }
+
+            &__image {
+                width: 100%;
+                height: 220px;
+                overflow: hidden;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                }
+            }
+            &__details {
+                background-color: rgba(88, 37, 37, 0.644);
+                padding: 15px;
+
+                p {
+                    font-weight: 300;
+                    color: #fff;
+                }
+            }
+        }
+        @include m.mobile {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        @include m.tablet {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.footer_main{
+    width: 100%;
+    background-color: rgb(150, 150, 184);
+    display: flex;
+    border-top: 2px solid black;
+}
+
+@media screen and (max-width: 768px){
+    .footer_main{
+        width: 100vw;
+        padding: 0px;
+        margin: 0 auto;
+        background-color: rgb(229, 190, 130);
+    }
+}

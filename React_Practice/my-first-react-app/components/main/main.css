@@ -1,0 +1,146 @@
+.main{
+     display: flex;
+    /* background-color: antiquewhite; */
+    height:auto;
+}
+.travel_text_left_main{
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+}
+.best_heading{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#DF6951;
+}
+.Traval_big_heading{
+    font-size: 46px;
+    font-family: Volkhov;
+    text-transform: capitalize;
+    align-items:center;
+    text-align:left;
+    color:rgb(22, 22, 43);
+    line-height:normal;
+    padding:10px 307px 10px 0px;
+    font-weight: bold;
+}
+.traval_para{
+    margin-top: -25px;
+    line-height: 15px;
+    font-size: 10px;
+    color: black;
+    text-align:left;
+    padding:10px 235px 10px 10px;
+
+}
+.main-fetch-error{
+    color: #b42318;
+    background-color: #fef3f2;
+    border: 1px solid #fecdca;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 0 20px 12px 0;
+    padding: 8px 10px;
+}
+.find_video_but_main{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding-top: 20px;
+}
+.findout{
+    font-size: 8px;
+    background-color:orange;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.video_butn_main{
+    display: flex;
+}
+.video_butn{
+        border: none;
+    outline: none;
+    background: transparent;
+    padding:0;
+    margin: 0;
+    box-shadow: none;
+
+}
+.video_butn i {
+    font-size: 40px;
+}
+.play{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: gray;   
+
+}
+.travel_img_right_main{
+    width: 50%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.img_traveller{
+    width:400px;
+    height:400px;
+    padding-top: 20px;
+    position: relative;
+}
+.plane{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    top:135px;
+    right:565px;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .travel_text_left_main{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best_heading{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#DF6951;
+    justify-content: center;
+    align-items: center;
+}
+.Traval_big_heading{
+    
+    padding:10px 45px 10px 0px;
+}
+.traval_para{
+    padding:10px 40px 10px 10px;
+
+}
+.plane{
+    display: none;
+}
+.travel_img_right_main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.img_traveller{
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    padding-left: 130px;
+
+}
+
+}

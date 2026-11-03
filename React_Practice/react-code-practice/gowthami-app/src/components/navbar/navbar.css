@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+
+.navbar-shell {
+  width: 100%;
+  /* background: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-panel {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding: 0 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background: #f7f7f7; */
+
+  overflow: visible;
+}
+/* ================================
+   LEFT SECTION
+================================ */
+
+.nav-left {
+  display: flex;
+  align-items: center;
+
+  flex: 0 0 auto;
+}
+
+.menu-button {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  cursor: pointer;
+}
+
+.menu-button svg {
+  width: 21px;
+  height: 21px;
+}
+/* Navigation links */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;  
+  gap:30px;  
+}
+
+ .nav-links a{
+  text-decoration: none;
+  color:navy;  
+ }
+
+.nav-links a:hover {
+  opacity: 0.6;
+  background-color:navy;
+  border-radius: 10px;
+  color:white;
+  padding:10px;
+}
+.nav-links a:active{
+  background-color:navy;
+  color:white;
+
+
+}
+
+/* ================================
+   CENTER LOGO
+================================ */
+
+.nav-logo {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-left,
+.logo-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+}
+
+.logo-left {
+  left: 0;
+  border-right: 14px solid #22222230;
+}
+
+.logo-right {
+  right: 0;
+  border-left: 14px solid #222;
+}
+
+
+/* ================================
+   RIGHT SECTION
+================================ */
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex: 0 0 auto;
+}
+/* Round buttons */
+.round-button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;  
+}
+
+.round-button svg {
+  width: 16px;
+  height: 16px;
+}
+.SignOut{
+  background-color: green;
+}
+
+/* ================================
+   CART
+================================ */
+
+.cart-button {
+  position: relative;
+  width: 100px;
+  height: 42px;
+  padding: 0 0 0 18px;
+  border: none;
+  border-radius: 25px;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.cart-button > span:first-child {
+  display: block;
+}
+
+/* White shopping bag circle */
+
+.cart-icon-wrapper {
+  position: absolute;
+  right: -8px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #f7f7f7;
+  border: 4px solid #222;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cart-icon-wrapper svg {
+  width: 15px;
+  height: 15px;
+}
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 900px) {
+
+  .navbar-panel {
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    gap: clamp(10px, 2vw, 18px);
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .nav-actions {
+    gap: 15px;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  .navbar-panel {
+    width: 100%;
+    height: auto;
+    min-height: 108px;
+    padding: 62px 12px 12px;
+  }
+  .menu-button {
+    display: none;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px clamp(10px, 4vw, 20px);
+  }
+
+  .nav-item {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .nav-logo {
+    top: 24px;
+  }
+  .nav-actions {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    gap: 6px;
+  }
+
+  .round-button {
+    width: 32px;
+    height: 32px;
+  }
+
+  .cart-button {
+    width: 60px;
+    height: 32px;
+    padding-left: 9px;
+    font-size: 9px;
+  }
+
+  .cart-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    right: -4px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-panel {
+    padding-inline: 8px;
+  }
+
+  .nav-links {
+    column-gap: 12px;
+  }
+  .nav-actions {
+    right: 8px;
+  }
+}

@@ -1,0 +1,19 @@
+#header{
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#main{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(32, 159, 20);
+}
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(186, 117, 25);
+}
+button {
+    height: 35px;
+    width: 135px;
+}

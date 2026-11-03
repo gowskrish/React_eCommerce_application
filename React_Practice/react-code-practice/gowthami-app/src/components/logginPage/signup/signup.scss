@@ -1,0 +1,64 @@
+.signup_main{
+    width:min(450px, calc(100vw - 32px));
+    max-height:calc(100dvh - 32px);
+    overflow-y:auto;
+    background-color: rgb(244, 239, 234);
+    border:1px solid black;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:1001;    
+    
+    .signup_close{
+        text-align: right;
+        padding:10px 10px 0px 0px;
+        color:#8ccee9;
+        cursor:pointer;
+
+    }
+    h1{
+        background: linear-gradient(to right, #8ccee9 30%, rgb(45, 226, 165) 70% );
+        background-clip: text;
+        color:transparent;
+    }
+    form{
+        text-align:left;
+        padding:0px clamp(20px, 8vw, 50px) 24px;
+        display: flex;
+        flex-direction: column;
+
+        label{
+            color:black;
+            padding-top:16px;
+        }
+        
+        input{
+            border: none;
+        background-color: rgb(244, 239, 234);
+        border-bottom: 2px solid rgb(45, 226, 165);
+        }
+        button{
+            margin-top:36px;
+            padding:10px 20px 10px 20px;
+            letter-spacing:3px;
+            color:white;
+            background: linear-gradient(to right, #8ccee9 30%, rgb(45, 226, 165) 70% );
+        }
+        select{
+
+        options{
+            border: none;
+        background-color: rgb(244, 239, 234);
+        color:red;
+        padding-top:20px;
+        }
+    }
+    }
+
+    .successmessage{
+        color:green;
+        text-align: center;
+        font-size: 18px;
+    }
+}
