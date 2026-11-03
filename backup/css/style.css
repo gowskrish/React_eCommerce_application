@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100wh;
+    height: auto;
+}
+.first_head-sec{
+    width:100vw;
+    height:1000px;
+    background-color: aquamarine;
+    display: flex;
+}
+.head_bagdrnd_img{
+    background-image:url("../images/Rectangle\ 511\ \(1\).png");
+    width:100%;
+    height:913px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-sec{
+    display: flex;
+    height: 109px;
+    width:100vw;
+    background-color:#F5F5F5;
+    position: absolute;
+    opacity:0.7;
+    justify-content: space-around;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-family: Playfair Display SC;
+    font-size: 22px;
+    text-transform:uppercase;
+    justify-content: space-around;
+    gap:80px;
+    color: #363636;
+    margin-left:40px;
+}
+.nav-list a{
+    color: #363636;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    color:purple;
+}
+.logo-img{
+    width: 279px;
+    height: 101px;
+    background-image:url('../images/Logo\ \(1\).png') ;
+
+}
+.awaits-head{
+    position: absolute;
+    background-image: url(../images/Your\ Dream\ Wedding\ Awaits.png);
+    background-repeat: no-repeat;
+    width: 727px;
+    height: 83px;
+    top:356px;
+    left:350px;   
+}
+.artistic_head{
+    position: absolute;
+    background-image: url("../images/Artistic\ Wedding\ Photography.png");
+    width:966px;
+    height: 97px;
+    top:456px;
+    left:237px;
+    background-repeat: no-repeat;
+}
+.menu-icon{    
+    display:none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+.menu-icon i{
+font-size: 22px;
+}
+
+@media screen and (max-width:768px)  {
+.menu-icon{
+     display: block;
+     margin-left: -30px;
+     cursor: pointer;
+}
+.nav-list{
+    list-style-type: none;
+    flex-direction: column;      
+    align-items:center;
+    font-family: Playfair Display SC;
+    font-size: 22px;
+    text-transform:uppercase;
+    /* justify-content: space-around; */
+    color: #363636;
+    background-color: rgb(233, 243, 123);
+    width:30%;
+    height:800px;
+    margin-left:600px;
+    margin-top:110px;
+    
+}
+.logo-img{
+    display:none;
+}
+.nav-list a:hover{
+    color:purple;
+    
+}
+}
+@media screen and (min-width:768px)  {
+
+}
+
+@media screen and (min-width:1200px)  {
+
+}
+@media screen and (min-width:1400px)  {
+
+}
