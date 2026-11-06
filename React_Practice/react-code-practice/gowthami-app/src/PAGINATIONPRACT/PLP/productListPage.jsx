@@ -1,11 +1,27 @@
 
-import React, { useState, useEffect } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import './productListPage.scss';
+import { useNavigate } from "react-router-dom";
+import { ProductContext } from "../../context/productContext";
 
 function Product_List_Page({ categoryKeyword, search }) {
     const [apiproducts, setApiproducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    const { setSelectProductId } = useContext(ProductContext)
+    const navigate = useNavigate();
+
+
+
+
+    // handleClickProductById
+    const handleClickProductById = (id) => {
+        setSelectProductId(id)
+        navigate(`/pdp/${id}`)
+
+        // console.log("productId", id)
+    }
+
 
     // 1. Fetch all products from API
     useEffect(() => {
@@ -29,12 +45,12 @@ function Product_List_Page({ categoryKeyword, search }) {
 
             } catch (error) {
                 // if (error.name !== 'AbortError') {
-                    setError(error.message);
+                setError(error.message);
                 // }
             } finally {
                 // if (!controller.signal.aborted) {
-                    setLoading(false);
-                // }
+                setLoading(false);
+                // }                 
             }
         }
 
@@ -46,8 +62,8 @@ function Product_List_Page({ categoryKeyword, search }) {
     // 2. Filter products
     const filteredProducts =
         !categoryKeyword ||
-        categoryKeyword === 'Reset' ||
-        categoryKeyword === 'All'
+            categoryKeyword === 'Reset' ||
+            categoryKeyword === 'All'
             ? apiproducts
             : apiproducts.filter(
                 (item) => item.collection === categoryKeyword
@@ -65,8 +81,9 @@ function Product_List_Page({ categoryKeyword, search }) {
     if (error) {
         return <p className="error-message">{error}</p>;
     }
-
     // 4. Display products
+
+
     return (
         <div
             className="Product_list_page_Main"
@@ -78,10 +95,11 @@ function Product_List_Page({ categoryKeyword, search }) {
                 <p>No products found.</p>
             ) : (
                 <div className="plp_lists">
-                    {(search.trim() ? searchData: filteredProducts).map((item) => (
+                    {(search.trim() ? searchData : filteredProducts).map((item) => (
                         <div
                             className="plp_list_child"
                             key={item.id}
+                            onClick={() => handleClickProductById(item.id)}
                             id="hdjhdj"
                             datai-id="hjhj"
                         >

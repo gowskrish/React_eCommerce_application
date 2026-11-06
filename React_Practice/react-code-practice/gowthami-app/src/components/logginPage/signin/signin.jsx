@@ -24,10 +24,8 @@ function SignIn({
   const [invalidMsg, setInvalidMsg] = useState("");
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
-
   const [enableEditform, setEnableEditform] = useState(false);
   const [editButton, setEditButton] = useState(true);
-
   const [originalData, setOriginalData] = useState({
     mail: "",
     phone: ""
@@ -113,9 +111,7 @@ function SignIn({
 
   // Login function
   const handleLogin = async (e) => {
-
     e.preventDefault();
-
     setError("");
     setInvalidMsg("");
     setUser(null);
@@ -162,7 +158,14 @@ function SignIn({
 
         setInvalidMsg("Invalid name or password");
         return;
+      }
 
+      if(matchedUser){
+        setIsLoggedIn(true)
+        sessionStorage.setItem("LoggedInUser", JSON.stringify(matchedUser))
+
+        setUserIconChange(matchedUser.name.charAt(0).toUpperCase());
+        onClose();
       }
 
       // Successful login
@@ -175,10 +178,7 @@ function SignIn({
       setIsLoggedIn(true);
 
       // Change profile icon
-      const firstLetter = matchedUser.name
-        ?.trim()
-        ?.[0]
-        ?.toUpperCase();
+      const firstLetter = matchedUser.name ?.trim() ?.[0] ?.toUpperCase();
 
       setUserIconChange(firstLetter);
 
@@ -202,17 +202,13 @@ function SignIn({
       setError(err.message || "Something went wrong");
 
     } finally {
-
       setLoading(false);
-
     }
-
   };
 
   return (
 
     <div className="login_main">
-
       <button
         type="button"
         className="closing"
@@ -271,12 +267,11 @@ function SignIn({
       )}
 
       {user && (
-
         <div role="status">
-
           <p className="loginsuccess">
             Welcome {user.name}, your login was successful!
           </p>
+
 
           {!enableEditform && (
             <div className="user-details">
@@ -294,13 +289,10 @@ function SignIn({
             >
               Edit
             </button>
-
           )}
 
           {enableEditform && (
-
             <form onSubmit={(e) => e.preventDefault()}>
-
               <input
                 type="email"
                 value={editDatas.mail}
@@ -332,11 +324,8 @@ function SignIn({
               >
                 Re Submit
               </button>
-
             </form>
-
           )}
-
         </div>
 
       )}
@@ -346,11 +335,8 @@ function SignIn({
         <div className="loginFail" role="alert">
           <p>{invalidMsg}</p>
         </div>
-
       )}
-
       {error && (
-
         <div className="loginFail" role="alert">
           <p>{error}</p>
         </div>

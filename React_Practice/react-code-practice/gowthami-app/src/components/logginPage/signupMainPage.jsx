@@ -19,18 +19,15 @@ function SignupMainPage({
 
   // Logout
   const handleLogout = () => {
-
+    localStorage.removeItem("LoggedInUser")
     setIsLoggedIn(false);
     setUserIconChange("");
-
     onClose();
   };
 
   return (
     <>
-
       {!signinOpen && !signupOpen && (
-
         <div className="signpage_main">
 
           <div
@@ -72,16 +69,12 @@ function SignupMainPage({
               >
                 Sign Out
               </button>
-
             </div>
-
           )}
-
         </div>
       )}
 
       {signinOpen && (
-
         <SignIn
           onClose={() => {
             setSigninOpen(false);
@@ -90,7 +83,6 @@ function SignupMainPage({
           setUserIconChange={setUserIconChange}
           setIsLoggedIn={setIsLoggedIn}
         />
-
       )}
 
       {signupOpen && (

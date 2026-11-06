@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, useNavigate } from "react-router-dom";
 
@@ -6,13 +6,14 @@ import {
   faBars,
   faHeart,
   faUser,
-  faBagShopping
+  faBagShopping,
+  faShirt
 } from '@fortawesome/free-solid-svg-icons';
 
 import './navbar.css';
 import SignupMainPage from "../logginPage/signupMainPage";
 
-export default function Navbar({  userIconChange, setUserIconChange}) {
+export default function Navbar({ userIconChange, setUserIconChange}) {
 
   const [showSign, setShowSign] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -26,6 +27,16 @@ export default function Navbar({  userIconChange, setUserIconChange}) {
    const handleHome = () => {
     navigate("/")
    }
+   useEffect(() => {
+    const userData = sessionStorage.getItem("LoggedInUser");
+
+    if(userData) {
+      const user = JSON.parse(userData);
+
+      setIsLoggedIn(true);
+      setUserIconChange(user.name.charAt(0).toUpperCase());
+    }
+   },[])
 
   return (
     <header className="navbar-shell">
@@ -53,10 +64,9 @@ export default function Navbar({  userIconChange, setUserIconChange}) {
             </Link>
           </nav>
         </div>
-        <div className="nav-logo">
-          <div className="logo-left"></div>
-          <div className="logo-right"></div>
-        </div>
+        <Link to="/" className="nav-logo" aria-label="Home">
+          <FontAwesomeIcon icon={faShirt} aria-hidden="true" />
+        </Link>
 
         <div className="nav-actions">
 

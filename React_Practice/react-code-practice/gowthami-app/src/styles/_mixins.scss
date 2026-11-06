@@ -1,27 +1,24 @@
 @mixin display-flex{
     display: flex;
     justify-content: space-around;
-
 }
 
 @mixin mobile{
     @media (max-width:767px) {
-        @content 
+        @content;
     }
 }
 
 @mixin tablet{
     @media (min-width:768px) and (max-width:1023px){
-        @content
+        @content;
     }
 }
-
 @mixin desktop{
     @media  (min-width:1024px){
-        @content
+        @content;
     }
 }
-
 @mixin heading{
         color: black;
         font-size: 38px;

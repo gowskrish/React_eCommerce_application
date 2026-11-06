@@ -1,0 +1,1444 @@
+{
+  "productDetails": [
+    {
+      "productId": 101,
+      "product": {
+        "id": 101,
+        "name": "Soft Wash Straight Fit Jeans",
+        "category": "Men",
+        "type": "Jeans",
+        "collection": "New Collection",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW COLLECTION",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+            "alt": "Blue denim jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 102,
+      "product": {
+        "id": 102,
+        "name": "Embroidered Graphic T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "New Collection",
+        "price": 999,
+        "currency": "INR",
+        "badge": "NEW COLLECTION",
+        "availability": "In Stock",
+        "stock": 12,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "White T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 201,
+      "product": {
+        "id": 201,
+        "name": "Embroidery Printed Oversized T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "New This Week",
+        "price": 999,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 19,
+        "primaryImage": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+            "alt": "Casual oversized T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 202,
+      "product": {
+        "id": 202,
+        "name": "Basic White T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "New This Week",
+        "price": 599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 26,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Plain white T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 203,
+      "product": {
+        "id": 203,
+        "name": "Vintage Wash Graphic T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "New This Week",
+        "price": 1099,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=80",
+            "alt": "Graphic T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 204,
+      "product": {
+        "id": 204,
+        "name": "Oversized Graphic T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "New This Week",
+        "price": 1099,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 40,
+        "primaryImage": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+            "alt": "Oversized graphic T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 301,
+      "product": {
+        "id": 301,
+        "name": "Oversized Camo Graphic T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "XIV 23-24",
+        "price": 1099,
+        "currency": "INR",
+        "badge": "XIV",
+        "availability": "In Stock",
+        "stock": 47,
+        "primaryImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=80",
+            "alt": "Graphic T-shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 302,
+      "product": {
+        "id": 302,
+        "name": "Classic Straight Fit Jeans",
+        "category": "Men",
+        "type": "Jeans",
+        "collection": "XIV 23-24",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "XIV",
+        "availability": "In Stock",
+        "stock": 8,
+        "primaryImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+            "alt": "Straight fit jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 401,
+      "product": {
+        "id": 401,
+        "name": "Women's Relaxed Fit T-Shirt",
+        "category": "Women",
+        "type": "T-Shirt",
+        "collection": "Women",
+        "price": 799,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Women's casual top",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 402,
+      "product": {
+        "id": 402,
+        "name": "Women's Denim Jeans",
+        "category": "Women",
+        "type": "Jeans",
+        "collection": "Women",
+        "price": 1499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 22,
+        "primaryImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+            "alt": "Women's denim jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 501,
+      "product": {
+        "id": 501,
+        "name": "Kids Cotton T-Shirt",
+        "category": "Kids",
+        "type": "T-Shirt",
+        "collection": "Kids",
+        "price": 499,
+        "currency": "INR",
+        "badge": "KIDS",
+        "availability": "In Stock",
+        "stock": 29,
+        "primaryImage": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+            "alt": "Kids casual clothing",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 502,
+      "product": {
+        "id": 502,
+        "name": "Kids Denim Jeans",
+        "category": "Kids",
+        "type": "Jeans",
+        "collection": "Kids",
+        "price": 699,
+        "currency": "INR",
+        "badge": "KIDS",
+        "availability": "In Stock",
+        "stock": 36,
+        "primaryImage": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&auto=format&fit=crop&q=80",
+            "alt": "Kids casual clothing",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 503,
+      "product": {
+        "id": 503,
+        "name": "Everyday Classic Crew Neck T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "Men",
+        "price": 699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 3,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Classic Crew Neck T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 504,
+      "product": {
+        "id": 504,
+        "name": "Essential Relaxed Fit Graphic T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "Men",
+        "price": 899,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Relaxed Fit Graphic T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 505,
+      "product": {
+        "id": 505,
+        "name": "Modern Slim Fit Denim Jeans",
+        "category": "Men",
+        "type": "Jeans",
+        "collection": "Men",
+        "price": 1399,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 25,
+        "primaryImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Slim Fit Denim Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 506,
+      "product": {
+        "id": 506,
+        "name": "Classic Casual Straight Fit Jeans",
+        "category": "Men",
+        "type": "Jeans",
+        "collection": "Men",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 36,
+        "primaryImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Casual Straight Fit Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 507,
+      "product": {
+        "id": 507,
+        "name": "Urban Cotton Polo T-Shirt",
+        "category": "Men",
+        "type": "Polo",
+        "collection": "Men",
+        "price": 999,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Cotton Polo T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 508,
+      "product": {
+        "id": 508,
+        "name": "Premium Linen Casual Shirt",
+        "category": "Men",
+        "type": "Shirt",
+        "collection": "Men",
+        "price": 1499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 20,
+        "primaryImage": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Linen Casual Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 509,
+      "product": {
+        "id": 509,
+        "name": "Everyday Checked Casual Shirt",
+        "category": "Men",
+        "type": "Shirt",
+        "collection": "Men",
+        "price": 1199,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Checked Casual Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 510,
+      "product": {
+        "id": 510,
+        "name": "Essential Regular Fit Chinos",
+        "category": "Men",
+        "type": "Trousers",
+        "collection": "Men",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 4,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Regular Fit Chinos",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 511,
+      "product": {
+        "id": 511,
+        "name": "Modern Cargo Utility Pants",
+        "category": "Men",
+        "type": "Trousers",
+        "collection": "Men",
+        "price": 1599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 15,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Cargo Utility Pants",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 512,
+      "product": {
+        "id": 512,
+        "name": "Classic Lightweight Hoodie",
+        "category": "Men",
+        "type": "Hoodie",
+        "collection": "Men",
+        "price": 1699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Lightweight Hoodie",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 513,
+      "product": {
+        "id": 513,
+        "name": "Urban Zip-Up Sweatshirt",
+        "category": "Men",
+        "type": "Sweatshirt",
+        "collection": "Men",
+        "price": 1799,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 37,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Zip-Up Sweatshirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 514,
+      "product": {
+        "id": 514,
+        "name": "Premium Casual Denim Jacket",
+        "category": "Men",
+        "type": "Jacket",
+        "collection": "Men",
+        "price": 2299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Casual Denim Jacket",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 515,
+      "product": {
+        "id": 515,
+        "name": "Everyday Printed Resort Shirt",
+        "category": "Men",
+        "type": "Shirt",
+        "collection": "Men",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 21,
+        "primaryImage": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Printed Resort Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 516,
+      "product": {
+        "id": 516,
+        "name": "Essential Athletic Joggers",
+        "category": "Men",
+        "type": "Joggers",
+        "collection": "Men",
+        "price": 1099,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 32,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Athletic Joggers",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 517,
+      "product": {
+        "id": 517,
+        "name": "Modern Basic Cotton Vest",
+        "category": "Men",
+        "type": "Vest",
+        "collection": "Men",
+        "price": 399,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Basic Cotton Vest",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 518,
+      "product": {
+        "id": 518,
+        "name": "Classic Textured Knit Polo",
+        "category": "Men",
+        "type": "Polo",
+        "collection": "Men",
+        "price": 1199,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 16,
+        "primaryImage": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Textured Knit Polo",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 519,
+      "product": {
+        "id": 519,
+        "name": "Urban Tapered Fit Jeans",
+        "category": "Men",
+        "type": "Jeans",
+        "collection": "Men",
+        "price": 1499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Tapered Fit Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 520,
+      "product": {
+        "id": 520,
+        "name": "Premium Oversized Cotton T-Shirt",
+        "category": "Men",
+        "type": "T-Shirt",
+        "collection": "Men",
+        "price": 799,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 38,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Oversized Cotton T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    }
+{
+      "productId": 521,
+      "product": {
+        "id": 521,
+        "name": "Everyday Formal Slim Fit Shirt",
+        "category": "Men",
+        "type": "Shirt",
+        "collection": "Men",
+        "price": 1599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 11,
+        "primaryImage": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Formal Slim Fit Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 522,
+      "product": {
+        "id": 522,
+        "name": "Essential Everyday Cotton Shorts",
+        "category": "Men",
+        "type": "Shorts",
+        "collection": "Men",
+        "price": 699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Everyday Cotton Shorts",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 523,
+      "product": {
+        "id": 523,
+        "name": "Modern Track Pants",
+        "category": "Men",
+        "type": "Joggers",
+        "collection": "Men",
+        "price": 999,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 33,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Track Pants",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 524,
+      "product": {
+        "id": 524,
+        "name": "Classic Bomber Jacket",
+        "category": "Men",
+        "type": "Jacket",
+        "collection": "Men",
+        "price": 2499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Bomber Jacket",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 525,
+      "product": {
+        "id": 525,
+        "name": "Everyday Relaxed Fit Cotton T-Shirt",
+        "category": "Women",
+        "type": "T-Shirt",
+        "collection": "Women",
+        "price": 799,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 3,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Relaxed Fit Cotton T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 526,
+      "product": {
+        "id": 526,
+        "name": "Essential Printed Oversized T-Shirt",
+        "category": "Women",
+        "type": "T-Shirt",
+        "collection": "Women",
+        "price": 899,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Printed Oversized T-Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 527,
+      "product": {
+        "id": 527,
+        "name": "Modern High-Rise Straight Jeans",
+        "category": "Women",
+        "type": "Jeans",
+        "collection": "Women",
+        "price": 1599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 25,
+        "primaryImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern High-Rise Straight Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 528,
+      "product": {
+        "id": 528,
+        "name": "Classic Wide-Leg Denim Jeans",
+        "category": "Women",
+        "type": "Jeans",
+        "collection": "Women",
+        "price": 1699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 36,
+        "primaryImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Wide-Leg Denim Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 529,
+      "product": {
+        "id": 529,
+        "name": "Urban Ribbed Knit Top",
+        "category": "Women",
+        "type": "Top",
+        "collection": "Women",
+        "price": 699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Ribbed Knit Top",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 530,
+      "product": {
+        "id": 530,
+        "name": "Premium Linen Blend Shirt",
+        "category": "Women",
+        "type": "Shirt",
+        "collection": "Women",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 20,
+        "primaryImage": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Linen Blend Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 531,
+      "product": {
+        "id": 531,
+        "name": "Everyday Floral Print Blouse",
+        "category": "Women",
+        "type": "Blouse",
+        "collection": "Women",
+        "price": 1199,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Floral Print Blouse",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 532,
+      "product": {
+        "id": 532,
+        "name": "Essential Cotton Midi Dress",
+        "category": "Women",
+        "type": "Dress",
+        "collection": "Women",
+        "price": 1799,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 4,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Cotton Midi Dress",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 533,
+      "product": {
+        "id": 533,
+        "name": "Modern Everyday A-Line Dress",
+        "category": "Women",
+        "type": "Dress",
+        "collection": "Women",
+        "price": 1599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 15,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Everyday A-Line Dress",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 534,
+      "product": {
+        "id": 534,
+        "name": "Classic Pleated Midi Skirt",
+        "category": "Women",
+        "type": "Skirt",
+        "collection": "Women",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Pleated Midi Skirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 535,
+      "product": {
+        "id": 535,
+        "name": "Urban Wide-Leg Trousers",
+        "category": "Women",
+        "type": "Trousers",
+        "collection": "Women",
+        "price": 1499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 37,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Wide-Leg Trousers",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 536,
+      "product": {
+        "id": 536,
+        "name": "Premium Casual Denim Jacket",
+        "category": "Women",
+        "type": "Jacket",
+        "collection": "Women",
+        "price": 2199,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Casual Denim Jacket",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 537,
+      "product": {
+        "id": 537,
+        "name": "Everyday Cropped Sweatshirt",
+        "category": "Women",
+        "type": "Sweatshirt",
+        "collection": "Women",
+        "price": 1399,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 21,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Cropped Sweatshirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 538,
+      "product": {
+        "id": 538,
+        "name": "Essential Lightweight Cardigan",
+        "category": "Women",
+        "type": "Cardigan",
+        "collection": "Women",
+        "price": 1699,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 32,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Lightweight Cardigan",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 539,
+      "product": {
+        "id": 539,
+        "name": "Modern Sleeveless Summer Top",
+        "category": "Women",
+        "type": "Top",
+        "collection": "Women",
+        "price": 599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Sleeveless Summer Top",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 540,
+      "product": {
+        "id": 540,
+        "name": "Classic Striped Cotton Shirt",
+        "category": "Women",
+        "type": "Shirt",
+        "collection": "Women",
+        "price": 1099,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 16,
+        "primaryImage": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Striped Cotton Shirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 541,
+      "product": {
+        "id": 541,
+        "name": "Urban High-Rise Skinny Jeans",
+        "category": "Women",
+        "type": "Jeans",
+        "collection": "Women",
+        "price": 1499,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban High-Rise Skinny Jeans",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 542,
+      "product": {
+        "id": 542,
+        "name": "Premium Relaxed Fit Linen Pants",
+        "category": "Women",
+        "type": "Trousers",
+        "collection": "Women",
+        "price": 1399,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 38,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Relaxed Fit Linen Pants",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 543,
+      "product": {
+        "id": 543,
+        "name": "Everyday Printed Wrap Dress",
+        "category": "Women",
+        "type": "Dress",
+        "collection": "Women",
+        "price": 1899,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 11,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Printed Wrap Dress",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 544,
+      "product": {
+        "id": 544,
+        "name": "Essential Basic Crew Neck Tee",
+        "category": "Women",
+        "type": "T-Shirt",
+        "collection": "Women",
+        "price": 599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Basic Crew Neck Tee",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 545,
+      "product": {
+        "id": 545,
+        "name": "Modern Textured Blouse",
+        "category": "Women",
+        "type": "Blouse",
+        "collection": "Women",
+        "price": 999,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 33,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Modern Textured Blouse",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 546,
+      "product": {
+        "id": 546,
+        "name": "Classic Denim Mini Skirt",
+        "category": "Women",
+        "type": "Skirt",
+        "collection": "Women",
+        "price": 1199,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Classic Denim Mini Skirt",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 547,
+      "product": {
+        "id": 547,
+        "name": "Urban Soft Knit Pullover",
+        "category": "Women",
+        "type": "Sweater",
+        "collection": "Women",
+        "price": 1599,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 17,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Urban Soft Knit Pullover",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 548,
+      "product": {
+        "id": 548,
+        "name": "Premium Casual Co-Ord Top",
+        "category": "Women",
+        "type": "Top",
+        "collection": "Women",
+        "price": 899,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 28,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Premium Casual Co-Ord Top",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 549,
+      "product": {
+        "id": 549,
+        "name": "Everyday Cotton Palazzo Pants",
+        "category": "Women",
+        "type": "Trousers",
+        "collection": "Women",
+        "price": 1299,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "Out of Stock",
+        "stock": 0,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Everyday Cotton Palazzo Pants",
+            "isPrimary": true
+          }
+        ]
+      }
+    },
+    {
+      "productId": 550,
+      "product": {
+        "id": 550,
+        "name": "Essential Embroidered Casual Kurti",
+        "category": "Women",
+        "type": "Kurti",
+        "collection": "Women",
+        "price": 1399,
+        "currency": "INR",
+        "badge": "NEW",
+        "availability": "In Stock",
+        "stock": 12,
+        "primaryImage": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+        "images": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1564257577-0a5b7f5a8f7f?w=600&auto=format&fit=crop&q=80",
+            "alt": "Essential Embroidered Casual Kurti",
+            "isPrimary": true
+          }
+        ]
+      }
+    }
+  ]
+}
