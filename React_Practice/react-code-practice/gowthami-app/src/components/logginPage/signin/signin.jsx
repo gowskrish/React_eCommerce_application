@@ -4,12 +4,7 @@ import "./signin.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
-function SignIn({
-  onClose,
-  setUserIconChange,
-  setIsLoggedIn
-}) {
-
+function SignIn({ onClose, setUserIconChange, setIsLoggedIn }) {
   const [formData, setFormData] = useState({
     name: "",
     password: "",
@@ -17,7 +12,7 @@ function SignIn({
 
   const [editDatas, setEditDatas] = useState({
     mail: "",
-    phone: ""
+    phone: "",
   });
 
   const [error, setError] = useState("");
@@ -28,12 +23,11 @@ function SignIn({
   const [editButton, setEditButton] = useState(true);
   const [originalData, setOriginalData] = useState({
     mail: "",
-    phone: ""
+    phone: "",
   });
 
   // Login input change
   const handleChange = (e) => {
-
     const { name, value } = e.target;
 
     setFormData((prevData) => ({
@@ -47,14 +41,12 @@ function SignIn({
 
   // Edit input change
   const handleEditChange = (e) => {
-
     const { name, value } = e.target;
 
     setEditDatas((prevData) => ({
       ...prevData,
       [name]: value,
     }));
-
   };
 
   // Edit button
@@ -65,32 +57,28 @@ function SignIn({
 
   // Cancel edit
   const handleCancel = () => {
-
     setEditDatas(originalData);
     setEnableEditform(false);
     setEditButton(true);
-
   };
 
   // PATCH updated data
   const handleReSubmitDatas = async () => {
-
     try {
-
       const response = await fetch(
         `http://localhost:3001/UserDetails/${user.id}`,
         {
           method: "PATCH",
 
           headers: {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
           },
 
           body: JSON.stringify({
             mail: editDatas.mail,
-            phone: editDatas.phone
-          })
-        }
+            phone: editDatas.phone,
+          }),
+        },
       );
 
       if (!response.ok) {
@@ -100,13 +88,9 @@ function SignIn({
       setOriginalData({ ...editDatas });
       setEnableEditform(false);
       setEditButton(true);
-
     } catch (error) {
-
       console.log("Update error:", error);
-
     }
-
   };
 
   // Login function
@@ -118,10 +102,7 @@ function SignIn({
     setLoading(true);
 
     try {
-
-      const apiResponse = await fetch(
-        "http://localhost:3001/UserDetails"
-      );
+      const apiResponse = await fetch("http://localhost:3001/UserDetails");
 
       if (!apiResponse.ok) {
         throw new Error("Failed to fetch user data");
@@ -135,37 +116,28 @@ function SignIn({
 
       // Find matching user
       const matchedUser = users.find((item) => {
-
         const apiName = String(item?.name ?? "")
           .trim()
           .toLowerCase();
 
-        const enteredName = formData.name
-          .trim()
-          .toLowerCase();
+        const enteredName = formData.name.trim().toLowerCase();
 
         const apiPassword = String(item?.password ?? "");
 
-        return (
-          apiName === enteredName &&
-          apiPassword === formData.password
-        );
-
+        return apiName === enteredName && apiPassword === formData.password;
       });
 
       // Invalid login
       if (!matchedUser) {
-
         setInvalidMsg("Invalid name or password");
         return;
       }
 
-      if(matchedUser){
-        setIsLoggedIn(true)
-        sessionStorage.setItem("LoggedInUser", JSON.stringify(matchedUser))
+      if (matchedUser) {
+        setIsLoggedIn(true);
+        sessionStorage.setItem("LoggedInUser", JSON.stringify(matchedUser));
 
         setUserIconChange(matchedUser.name.charAt(0).toUpperCase());
-        onClose();
       }
 
       // Successful login
@@ -178,7 +150,7 @@ function SignIn({
       setIsLoggedIn(true);
 
       // Change profile icon
-      const firstLetter = matchedUser.name ?.trim() ?.[0] ?.toUpperCase();
+      const firstLetter = matchedUser.name?.trim()?.[0]?.toUpperCase();
 
       setUserIconChange(firstLetter);
 
@@ -191,23 +163,19 @@ function SignIn({
       // Load edit data
       const userEditData = {
         mail: matchedUser.mail || "",
-        phone: matchedUser.phone || ""
+        phone: matchedUser.phone || "",
       };
 
       setEditDatas(userEditData);
       setOriginalData(userEditData);
-
     } catch (err) {
-
       setError(err.message || "Something went wrong");
-
     } finally {
       setLoading(false);
     }
   };
 
   return (
-
     <div className="login_main">
       <button
         type="button"
@@ -222,13 +190,8 @@ function SignIn({
         <>
           <h1>Login</h1>
 
-          <form
-            className="login_form"
-            onSubmit={handleLogin}
-          >
-            <label htmlFor="login-name">
-              Your name
-            </label>
+          <form className="login_form" onSubmit={handleLogin}>
+            <label htmlFor="login-name">Your name</label>
 
             <input
               id="login-name"
@@ -241,9 +204,7 @@ function SignIn({
               required
             />
 
-            <label htmlFor="login-password">
-              Password
-            </label>
+            <label htmlFor="login-password">Password</label>
 
             <input
               id="login-password"
@@ -256,10 +217,7 @@ function SignIn({
               required
             />
 
-            <button
-              type="submit"
-              disabled={loading}
-            >
+            <button type="submit" disabled={loading}>
               {loading ? "Signing in..." : "Sign in"}
             </button>
           </form>
@@ -272,7 +230,6 @@ function SignIn({
             Welcome {user.name}, your login was successful!
           </p>
 
-
           {!enableEditform && (
             <div className="user-details">
               {/* <p><strong>Name:</strong> {user.name}</p> */}
@@ -282,11 +239,7 @@ function SignIn({
           )}
 
           {editButton && (
-
-            <button
-              type="button"
-              onClick={handleEditUserData}
-            >
+            <button type="button" onClick={handleEditUserData}>
               Edit
             </button>
           )}
@@ -307,10 +260,7 @@ function SignIn({
                 name="phone"
               />
 
-              <button
-                type="button"
-                onClick={handleCancel}
-              >
+              <button type="button" onClick={handleCancel}>
                 Cancel
               </button>
 
@@ -327,11 +277,9 @@ function SignIn({
             </form>
           )}
         </div>
-
       )}
 
       {invalidMsg && (
-
         <div className="loginFail" role="alert">
           <p>{invalidMsg}</p>
         </div>
@@ -340,11 +288,8 @@ function SignIn({
         <div className="loginFail" role="alert">
           <p>{error}</p>
         </div>
-
       )}
-
     </div>
-
   );
 }
 
