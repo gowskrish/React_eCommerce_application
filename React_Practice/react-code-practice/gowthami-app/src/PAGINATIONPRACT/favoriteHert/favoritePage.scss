@@ -1,0 +1,64 @@
+.favroutePage_main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  h1 {
+    color: green;
+    font-family: italic;
+  }
+  .fav_pro_main {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .fav_product_images_main {
+    display: flex;
+    width: 70%;
+    height: 120px;
+    border: 3px solid white;
+    background-color: rgb(194, 194, 190);
+    border-radius: 5px;
+    padding: 3px;
+
+    .fav_images {
+      width: 150px;
+      height: 110px;
+      margin-right: 10px;
+      border: 1px solid white;
+    }
+    .fav_prodct_detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .fav_but_main {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    .fav_add_butn {
+      width: 150px;
+      height: 30px;
+      display: flex;
+      background-color: rgb(139, 139, 230);
+      justify-content: center;
+      align-items: center;
+      border: none;
+      border-radius: 8px;
+      margin-left: 5px;
+    }
+    .remove_butn {
+      width: 150px;
+      height: 28px;
+      display: flex;
+      background-color: rgb(187, 107, 107);
+      justify-content: center;
+      align-items: center;
+      border: none;
+      border-radius: 8px;
+      margin-left: 5px;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./signup.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -10,13 +10,14 @@ function Signup({ onClose }) {
     mail: "",
     country: "",
     phone: "",
-    password: ""
+    password: "",
   });
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
     setValues({
-      ...values, [e.target.name]: e.target.value
+      ...values,
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -30,18 +31,18 @@ function Signup({ onClose }) {
         {
           method: "POST",
           headers: {
-            "content-type": "application/json"
+            "content-type": "application/json",
           },
-          body: JSON.stringify(values)
-        }
+          body: JSON.stringify(values),
+        },
       );
       if (!response.ok) {
-        throw new Error("Signup Failed")
+        throw new Error("Signup Failed");
       }
       const newUser = await response.json();
 
       setMessage("Signup Sussessfully");
-      console.log("New user:", newUser)
+      console.log("New user:", newUser);
 
       setValues({
         id: "",
@@ -49,12 +50,12 @@ function Signup({ onClose }) {
         mail: "",
         Country: " ",
         phone: "",
-        password: " "
+        password: " ",
       });
-    }catch (error){
-      setMessage(error.message)
+    } catch (error) {
+      setMessage(error.message);
     }
-       };
+  };
 
   return (
     <div className="signup_main" data-component="Sign-up">
@@ -66,7 +67,8 @@ function Signup({ onClose }) {
 
       <form onSubmit={handleSignup}>
         <label>Name</label>
-        <input type="text"
+        <input
+          type="text"
           name="name"
           autoComplete="name"
           value={values.name}
@@ -74,7 +76,8 @@ function Signup({ onClose }) {
         />
 
         <label>E-mail address</label>
-        <input type="email"
+        <input
+          type="email"
           name="mail"
           autoComplete="email"
           onChange={handleChange}
@@ -83,24 +86,27 @@ function Signup({ onClose }) {
         />
 
         <label>Country</label>
-        <input type="text"
+        <input
+          type="text"
           name="country"
           autoComplete="country-name"
-          onChange={handleChange} 
-          value={values.country}
-          />
+          onChange={handleChange}
+          value={values.country || ""}
+        />
 
         <label>Phone</label>
-        <input type="number"
+        <input
+          type="number"
           name="phone"
           autoComplete="number"
           onChange={handleChange}
-         value={values.phone}
-         required
+          value={values.phone}
+          required
         />
 
         <label>Password</label>
-        <input type="password"
+        <input
+          type="password"
           name="password"
           // autoComplete="new-password"
           onChange={handleChange}

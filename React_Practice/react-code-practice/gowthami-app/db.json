@@ -12,7 +12,7 @@
       "cta": "Go To Shop"
     },
     {
-      "id": 102,
+      "id": 103,
       "name": "Embroidered Graphic T-Shirt",
       "category": "Men",
       "price": 999,
@@ -1480,7 +1480,7 @@
       "name": "Gowthami",
       "mail": "gows821@gmail.com",
       "country": "India",
-      "phone": "12345672",
+      "phone": "123456712",
       "password": 123456
     },
     {
@@ -1538,6 +1538,30 @@
       "country": "india",
       "phone": "4598762178",
       "password": "12345"
+    },
+    {
+      "id": 1009,
+      "name": "Divya",
+      "mail": "dives@yahoo.com",
+      "country": "india",
+      "phone": "2659874632",
+      "password": "123456"
+    },
+    {
+      "id": 1010,
+      "name": "sulochana",
+      "mail": "sulo@yahoo.com",
+      "country": "india",
+      "phone": "6432654123",
+      "password": "123456"
+    },
+    {
+      "id": 1011,
+      "name": "maragatham",
+      "mail": "mara@yahoo.com",
+      "country": "india",
+      "phone": "1326549873",
+      "password": "123456"
     }
   ],
   "productDetails": [

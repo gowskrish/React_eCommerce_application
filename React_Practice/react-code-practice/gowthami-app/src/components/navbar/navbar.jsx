@@ -1,22 +1,31 @@
-import { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { FavoriteHeartContext } from "../../context/favoritehearContext";
 
 import {
   faBars,
   faHeart,
   faUser,
   faBagShopping,
-  faShirt
-} from '@fortawesome/free-solid-svg-icons';
+  faShirt,
+} from "@fortawesome/free-solid-svg-icons";
 
-import './navbar.css';
+import "./navbar.css";
 import SignupMainPage from "../logginPage/signupMainPage";
 
-export default function Navbar({ userIconChange, setUserIconChange}) {
-
+export default function Navbar({ userIconChange, setUserIconChange }) {
   const [showSign, setShowSign] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const {
+    favoriteHeart,
+    setFavoriteHeart,
+    setFavGreenSet,
+    favCountset,
+    setFavCountSet,
+  } = useContext(FavoriteHeartContext);
+  console.log("Nannnn", favCountset);
 
   // Open profile popup
   const handleShowProfile = () => {
@@ -24,32 +33,32 @@ export default function Navbar({ userIconChange, setUserIconChange}) {
   };
   // HandleHome
   const navigate = useNavigate();
-   const handleHome = () => {
-    navigate("/")
-   }
-   useEffect(() => {
+  const handleHome = () => {
+    navigate("/");
+  };
+  useEffect(() => {
     const userData = sessionStorage.getItem("LoggedInUser");
 
-    if(userData) {
+    if (userData) {
       const user = JSON.parse(userData);
 
       setIsLoggedIn(true);
       setUserIconChange(user.name.charAt(0).toUpperCase());
     }
-   },[])
+  }, []);
 
   return (
     <header className="navbar-shell">
       <div className="navbar-panel">
-
         <div className="nav-left">
-
           <button className="menu-button" onClick={handleHome}>
             <FontAwesomeIcon icon={faBars} />
           </button>
 
           <nav className="nav-links">
-            <Link to="/" className="home_item">Home</Link>
+            <Link to="/" className="home_item">
+              Home
+            </Link>
 
             <Link to="/NewThisWeek" className="colec_item">
               Collection
@@ -67,13 +76,16 @@ export default function Navbar({ userIconChange, setUserIconChange}) {
         <Link to="/" className="nav-logo" aria-label="Home">
           <FontAwesomeIcon icon={faShirt} aria-hidden="true" />
         </Link>
-
         <div className="nav-actions">
-
-          <button className="round-button">
-            <FontAwesomeIcon icon={faHeart} />
+          <button className="round-button_heart">
+            <FontAwesomeIcon
+              className="heart"
+              icon={faHeart}
+              onClick={() => navigate("/favorite")}
+              style={{ color: favCountset > 0 ? "green" : "white" }}
+            />
+            <span className="favCount">{favCountset}</span>
           </button>
-
           <button className="cart-button">
             <span>Cart</span>
 
@@ -81,22 +93,16 @@ export default function Navbar({ userIconChange, setUserIconChange}) {
               <FontAwesomeIcon icon={faBagShopping} />
             </span>
           </button>
-
           <button
             className="round-button"
             aria-label="Profile"
             onClick={handleShowProfile}
           >
             {userIconChange || (
-              <FontAwesomeIcon
-                icon={faUser}
-                className="usericon"
-              />
+              <FontAwesomeIcon icon={faUser} className="usericon" />
             )}
           </button>
-
         </div>
-
       </div>
 
       {showSign && (
@@ -107,7 +113,6 @@ export default function Navbar({ userIconChange, setUserIconChange}) {
           setIsLoggedIn={setIsLoggedIn}
         />
       )}
-
     </header>
   );
 }

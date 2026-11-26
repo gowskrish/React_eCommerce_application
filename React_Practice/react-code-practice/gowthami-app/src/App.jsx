@@ -11,6 +11,8 @@ import ProductDetails from "./PAGINATIONPRACT/PDP/productDetailsPage";
 // import PLP from "./PAGINATIONPRACT/PLP/productListPage";
 import ProductProvider from "./context/productContext";
 import ProductListProvider from "./context/productListContext";
+import FavoritePage from "./PAGINATIONPRACT/favoriteHert/favoritePage";
+import { FavoriteHeartProvider } from "./context/favoritehearContext";
 
 function App() {
   const [userIconChange, setUserIconChange] = useState(() => {
@@ -19,33 +21,36 @@ function App() {
 
   return (
     <>
-      <ProductProvider>
-        <ProductListProvider>
-          <BrowserRouter>
-            <Navbar
-              userIconChange={userIconChange}
-              setUserIconChange={setUserIconChange}
-            />
-            <Routes>
-              <Route path="/" element={<Content />} />
-              <Route path="/NewThisWeek" element={<NewThisWeek />} />
-              <Route path="/Ourapproach" element={<Ourapproach />} />
-              {/* <Route path="/Ourapproach" element={<Ourapproach />} /> */}
-              <Route
-                path="/PLP"
-                element={
-                  <>
-                    <Pagination />
-                    {/* <PLP /> */}
-                  </>
-                }
+      <FavoriteHeartProvider>
+        <ProductProvider>
+          <ProductListProvider>
+            <BrowserRouter>
+              <Navbar
+                userIconChange={userIconChange}
+                setUserIconChange={setUserIconChange}
               />
-              <Route path="/pdp/:id" element={<ProductDetails />} />
-            </Routes>
-            <Footer />
-          </BrowserRouter>
-        </ProductListProvider>
-      </ProductProvider>
+              <Routes>
+                <Route path="/" element={<Content />} />
+                <Route path="/NewThisWeek" element={<NewThisWeek />} />
+                <Route path="/Ourapproach" element={<Ourapproach />} />
+                {/* <Route path="/Ourapproach" element={<Ourapproach />} /> */}
+                <Route
+                  path="/PLP"
+                  element={
+                    <>
+                      <Pagination />
+                      {/* <PLP /> */}
+                    </>
+                  }
+                />
+                <Route path="/pdp/:id" element={<ProductDetails />} />
+                <Route path="/favorite" element={<FavoritePage />} />
+              </Routes>
+              <Footer />
+            </BrowserRouter>
+          </ProductListProvider>
+        </ProductProvider>
+      </FavoriteHeartProvider>
     </>
   );
 }

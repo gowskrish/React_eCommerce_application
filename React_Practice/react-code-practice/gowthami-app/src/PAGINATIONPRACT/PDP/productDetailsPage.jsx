@@ -6,6 +6,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { useContext } from "react";
 import { ProductContext } from "../../context/productContext";
 import { useParams } from "react-router-dom";
+import { FavoriteHeartContext } from "../../context/favoritehearContext";
 
 function ProductDetails() {
   const [isLikeHeart, setIsLikeHeart] = useState(false);
@@ -13,7 +14,6 @@ function ProductDetails() {
   // console.log("PRODUCTS", product);
   const { selectProductId } = useContext(ProductContext);
   //   console.log("Receive selectProductId:", selectProductId);
-
   const { id } = useParams();
   const [productDetails, setProductDetails] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -21,6 +21,14 @@ function ProductDetails() {
 
   const product = productDetailsData.productDetails;
   //   console.log("ReferenceId:", id);
+
+  const {
+    favoriteHeart,
+    addFavorite,
+    favCountset,
+    setFavCountSet,
+    removeFavorite,
+  } = useContext(FavoriteHeartContext);
 
   useEffect(() => {
     const fetchProductDetails = async () => {
@@ -48,8 +56,19 @@ function ProductDetails() {
   //     console.log("fetchingDatafromId", responseProductDetailId);
   //   }, []);
 
-  function handleHeart() {
-    setIsLikeHeart(!isLikeHeart);
+  function handleHeart(product) {
+    // setIsLikeHeart(!isLikeHeart);
+    // addFavorite(productDetails);
+    // setFavCountSet((item) => item + 1);
+    addFavorite(productDetails);
+
+    if (!isLikeHeart) {
+      setFavCountSet((item) => item + 1);
+    } else {
+      removeFavorite(product.productId);
+      setFavCountSet((item) => item - 1);
+    }
+    setIsLikeHeart((prev) => !prev);
   }
 
   if (loading) return <h3 className="loading">Loading...</h3>;
